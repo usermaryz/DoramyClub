@@ -20,6 +20,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+
 public class Parser extends AppCompatActivity{
     private RecyclerView recyclerViewShows;
     private ArrayList<ShowModel> arrayListAllShows;
@@ -33,7 +34,7 @@ public class Parser extends AppCompatActivity{
         arrayListAllShows = new ArrayList<>();
 
         RequestQueue mQueue = Volley.newRequestQueue(getApplicationContext());
-        JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET,"https://api.tvmaze.com/shows", null,
+        JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET,"https://api.kinopoisk.dev/v1.4/movie/search", null,
                 new Response.Listener<JSONArray>() {
                     @Override
                     public void onResponse(JSONArray response) {
