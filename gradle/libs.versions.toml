@@ -9,6 +9,7 @@ activity = "1.9.0"
 constraintlayout = "2.1.4"
 googleGmsGoogleServices = "4.4.1"
 firebaseDatabase = "21.0.0"
+volley = "1.2.1"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -22,6 +23,7 @@ autoimageslider = { group = "com.github.smarteist", name = "autoimageslider", ve
 autoimageslider-appcompat = { group = "com.github.smarteist", name = "autoimageslider", version = "1.4.0-appcompat" }
 firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 glide = { group = "com.github.bumptech.glide", name = "glide", version = "4.16.0" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
