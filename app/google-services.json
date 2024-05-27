@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102477904738",
+    "project_id": "doramyclub-eb1ee",
+    "storage_bucket": "doramyclub-eb1ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102477904738:android:37ca08c22870a65a640a3b",
+        "android_client_info": {
+          "package_name": "com.example.doramyclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaLhHBvvO6ejLlfYD6pQd1hmATLqF-9mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
